@@ -31,9 +31,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Tennō: [+ president +]
+Tennō: [+ tennō +]
 
-Prime Minister: [+ chancellor +] ([+ chancellor_party +])
+Prime Minister: [+ prime_minister +] ([+ prime_minister_party +])
 
 House of Peers composition:
 
