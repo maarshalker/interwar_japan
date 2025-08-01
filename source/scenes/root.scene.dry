@@ -332,7 +332,7 @@ Q.economic_records = [];
 Q.tenno = "Taishō";
 // starting Prime Minister: Yamamoto Gonnohyōe
 Q.prime_minister = "Yamamoto";
-Q.chancellor_party = 'I';
+Q.prime_minister_party = 'I';
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
