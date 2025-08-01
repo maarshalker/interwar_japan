@@ -329,7 +329,84 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.tenno = "Taishō";
+Q.tenno = "<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tooltip With an Image</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+            bottom: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .tooltip img {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tooltip">
+        Hover me
+        <span class="tooltiptext" id="tooltipContent">
+        </span>
+    </div>
+    <script>
+        const images = [
+"https://media.geeksforgeeks.org/wp-content/uploads/20240327032356/gfgimg.png",
+"https://media.geeksforgeeks.org/wp-content/uploads/20240130202536/Gfg-Logo.png"
+        ];
+        const tooltipContent = document.getElementById("tooltipContent");
+        let currentIndex = 0;
+
+        function showImageTooltip() {
+            if (currentIndex >= images.length) {
+                currentIndex = 0;
+            }
+            tooltipContent.innerHTML =
+                `<img src="${images[currentIndex]}" alt="Tooltip Image">`;
+            currentIndex++;
+            setTimeout(showImageTooltip, 1000);
+        }
+        showImageTooltip();
+    </script>
+</body>
+
+</html>";
 // starting Prime Minister: Yamamoto Gonnohyōe
 Q.prime_minister = "Yamamoto";
 Q.prime_minister_party = 'I';
