@@ -329,7 +329,7 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.tenno = "Taishō";
+Q.tenno = "who";
 // starting Prime Minister: Yamamoto Gonnohyōe
 Q.prime_minister = "Yamamoto";
 Q.prime_minister_party = 'I';
