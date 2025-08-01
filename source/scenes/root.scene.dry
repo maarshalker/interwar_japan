@@ -329,7 +329,7 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.tenno = "Taishō";
+Q.tenno = "<span class="mytooltipRED">eight or so snakes<span class="mytooltiptext"><img src="https://i.imgur.com/QayTQnh.png"> Vermin.</span></span>";
 // starting Prime Minister: Yamamoto Gonnohyōe
 Q.prime_minister = "Yamamoto";
 Q.prime_minister_party = 'I';
