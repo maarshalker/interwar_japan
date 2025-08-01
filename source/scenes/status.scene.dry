@@ -47,7 +47,7 @@ House of Representatives composition:
 # 1928: 5, 1930: 4 (as DstP)
 {!<span class="tooltip-text" title="Reformist Club">RC</span>!}: [+ rc_r +]%
 # 1928: 14, 1930: 7
-{!<span class="tooltip-text" title="Others">Others</span>!}: [+ others_r +]%
+{!<span class="tooltip-text" title="Others">I</span>!}: [+ others_r +]%
 
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
