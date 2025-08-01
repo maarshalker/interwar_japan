@@ -38,14 +38,14 @@ Prime Minister: [+ prime_minister +] ([+ prime_minister_party +])
 House of Representatives composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Constitutional Politics Association">K</span>!}: [+ k_r +]%
+{!<span class="tooltip-text" title="Constitutional Politics Association">CPA</span>!}: [+ cpa_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Orthodox Constitutional Friends Party">S</span>!}: [+ s_r +]%
+{!<span class="tooltip-text" title="Orthodox Constitutional Friends Party">OCFP</span>!}: [+ ocfp_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="Association of Friends of Constitutional Government">RS</span>!}: [+ rs_r +]%
+{!<span class="tooltip-text" title="Association of Friends of Constitutional Government">AFCG</span>!}: [+ afcg_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="Reformist Club">KC</span>!}: [+ KC_r +]%
+{!<span class="tooltip-text" title="Reformist Club">RC</span>!}: [+ rc_r +]%
 # 1928: 14, 1930: 7
 {!<span class="tooltip-text" title="Others">Others</span>!}: [+ others_r +]%
 
