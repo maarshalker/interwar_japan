@@ -301,7 +301,7 @@ Q.ddp_r = 6;
 Q.dvp_r = 10;
 Q.I_r = 20;
 Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.others_r = 9;
 
 // diff from prev
 Q.old_spd_r = 26;
