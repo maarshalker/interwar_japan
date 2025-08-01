@@ -114,7 +114,7 @@ Q.kpd_leader = "Thälmann";
 Q.kpd_party_leader = "Thälmann";
 Q.z_leader = "Brüning";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 1928 December conference. Joos will be most friendly to the SPD.
-Q.i_party_leader = "Yamamoto";
+Q.other_party_leader = "Yamamoto";
 Q.nsdap_leader = "Hitler";
 
 // hmm... maybe we can play nice with Hindenburg???
@@ -337,7 +337,7 @@ Q.spd_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
 Q.dvp_in_government = 1;
-Q.i_in_government = 1;
+Q.other_in_government = 1;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
 
